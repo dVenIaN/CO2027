@@ -10,3 +10,4 @@ astring = "You have not sent a parameter"
 #astring = "Hurrah hurrah"
 
 betterPrint(astring, 1)
+betterPrint("Hello You", 1)
