@@ -1,0 +1,17 @@
+#set your variables
+timeofday = "Afternoon"
+answer = "yes"
+
+#loop till user says no
+while (answer == "yes") :
+    timeofday = input("what is the time of day? ")
+    if (timeofday == "Morning"):
+        print("Good Morning")
+    elif (timeofday == "Afternoon") :
+        print("Good Afternoon")
+    else :
+        print ("Good Night")
+
+    answer = input("Run again? yes/no ")
+
+    
